@@ -1,0 +1,92 @@
+.Container{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 80px;
+    height: 50%;
+    width: 40%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.Container-top{
+    background-color: #3d4c5c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: larger;
+    color: #8ed1e6;
+}
+.Container-forms{
+    font-size: large;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2c3c4b;
+    height: 80%;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #8bb0f5;
+}
+
+.Container-forms input{
+    background-color: #3d4c5c;
+    border-radius: 3px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, sans-serif;
+    align-items: center;
+}
+
+.Container-forms .form-button-cadastrar{
+    width: fit-content;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #3e85d1;
+    border-radius: 6px;
+    color: #e9eef6;
+    transition-duration: 0.6s;
+    font-weight: bold;
+    
+}
+.Container-forms .form-button-login{
+    margin-top: 10px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #8bb0f5;
+    transition-duration: 0.6s;
+    
+}
+
+.Container-forms .form-button-cadastrar:hover{
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+.Container-forms .form-button-login:hover{
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+

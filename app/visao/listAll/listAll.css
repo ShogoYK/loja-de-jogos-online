@@ -1,0 +1,60 @@
+
+.listAll{
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    margin: 30px;
+    
+}
+img{
+    max-width: 280px;
+    max-height: 200px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+img:hover{
+    border-radius: 25px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+th{
+    background-color: #3ec7e2;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.head-img{
+    /* background-color: #66D9EF; */
+    width: 250px;
+    background-color: #212529;
+}
+.head-nome{
+    /* background-color: violet; */
+    width: 250px;
+}
+.head-descricao {
+    /* background-color: yellow; */
+    width: 250px;
+}
+
+.head-preco{
+    /* background-color: blue; */
+    width: 250px;
+}
+.head-action {
+    /* background-color: yellow; */
+    width: 250px;
+}
+td{
+    text-align: center;
+
+    color: white;
+    font-size: 18px;
+    background-color: #4e5b68;
+}
+
+ion-icon{
+    cursor: pointer;
+}

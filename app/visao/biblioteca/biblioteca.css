@@ -1,0 +1,53 @@
+html, body{
+    background-color: #212529;
+}
+
+.topo{
+    color: #66D9EF;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.topo-titulo{
+    margin-left: 10px;
+    flex-grow: 1;
+    text-align: left;
+    
+}
+
+.topo-ordenar{
+    flex-grow: 1;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.prateleira{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.prateleira-jogo{
+    width: 30%;
+    height: 30%;
+    transition-duration: 0.4s;
+}
+
+.prateleira-jogo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
